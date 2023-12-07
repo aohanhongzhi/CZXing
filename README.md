@@ -1,3 +1,19 @@
+# 本地开发工程
+
+## 下载 cmake 3.18.1
+
+https://cmake.org/files/v3.18/
+
+必须是 3.18.1，否则各种报错。cmake与c++的版本是有相关性的。就像gradle与jdk的版本一样。
+
+## 修改本地配置 local.properties
+
+配置上述下载的cmake文件地址。
+
+```
+cmake.dir=/home/eric/Android/Sdk/cmake/cmake-3.18.1-Linux-x86_64
+```
+
 # CZXing
 C++ port of ZXing for Android
 
