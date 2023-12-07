@@ -121,8 +121,9 @@ public class ScanLayout extends FrameLayout implements BarcodeDecoder.OnFocusLis
 
     @Override
     public void onReadCodeResult(List<CodeResult> resultList) {
+        // 扫码结果
         for (CodeResult result : resultList) {
-            BarCodeUtil.d("result : " + result.toString());
+            BarCodeUtil.d("result : 2" + result.toString());
         }
 
         showResultPoint(resultList);

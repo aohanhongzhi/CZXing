@@ -72,7 +72,7 @@ public class ScanBoxTestActivity extends BaseDecoderActivity {
                     @Override
                     public void onReadCodeResult(List<CodeResult> resultList) {
                         for (CodeResult result : resultList) {
-                            BarCodeUtil.d("result : " + result.toString());
+                            BarCodeUtil.d("result 1 : " + result.toString());
                         }
                     }
                 });
